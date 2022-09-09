@@ -8,7 +8,7 @@ html, body {
     text-align: center;
   }
   
-  .p{
+  p{
     text-align: center;
   }
   
@@ -28,5 +28,6 @@ html, body {
   
 
   footer{
+    padding:15px;
     text-align: center;
   }
