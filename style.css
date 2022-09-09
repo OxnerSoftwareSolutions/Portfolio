@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1{
+    background: grey;
+    text-align: center;
+  }
+  
+  h2{
+    background: #c7c7c7;
+    text-align: center;
+  }
+  
+  h3{
+    background: lightgray;
+    text-align:center;
+  }
+
+  ol{
+    text-align: center;
+  }
+  
+
+  footer{
+    text-align: center;
+  }
