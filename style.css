@@ -37,9 +37,17 @@ html, body {
 
   ol{
     text-align: center;
-    padding: 0% 20%;
+    padding: 0% 35%;
+  }
+
+  ul{
+    padding: 0%;
   }
   
+  body2{
+    background: rgb(167, 89, 89);
+  }
+
   img{
     vertical-align: auto;
     margin: 0% 0%;
