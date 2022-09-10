@@ -3,37 +3,50 @@ html, body {
     width: 100%;
   }
   
-  h1{
+  header{
+    contain: content;
+    padding: 0% 25%;
     background: grey;
-    text-align: center;
   }
-  
-  p{
+
+  h1{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size:medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  h2{
-    background: #c7c7c7;
+  p{
+    contain: content;
     text-align: center;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0% 15%;
+  }
+  
+  h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0% 25%;
+    background-color: rgb(163, 163, 163);
   }
   
   h3{
-    background: lightgray;
     text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0% 25%;
   }
 
   ol{
     text-align: center;
+    padding: 0% 25%;
   }
   
   img{
-    float: center;
+    vertical-align: auto;
+    margin: 0% 0%;
   }
+
   footer{
     padding:15px;
+    background: grey;
     text-align: center;
   }
