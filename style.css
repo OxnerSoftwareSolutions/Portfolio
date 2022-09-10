@@ -10,6 +10,8 @@ html, body {
   
   p{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-size:medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
@@ -28,7 +30,9 @@ html, body {
     text-align: center;
   }
   
-
+  img{
+    float: center;
+  }
   footer{
     padding:15px;
     text-align: center;
