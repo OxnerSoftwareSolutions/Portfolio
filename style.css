@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-color: rgb(187, 80, 9);
   }
   
   header{
@@ -37,7 +38,7 @@ html, body {
 
   ol{
     text-align: center;
-    padding: 0% 35%;
+    padding: 0% 15%;
   }
 
   ul{
