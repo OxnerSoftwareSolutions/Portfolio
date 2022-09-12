@@ -65,8 +65,19 @@ html, body {
     padding-right: 2.5%;
     padding-left: 2.5%;
     font-size: large;
+    text-decoration: none;
+    list-style: none;
   }
   
+  nav li{
+    list-style: none;
+    text-decoration: noneS;
+  }
+
+  li a:hover {
+    color: white;
+  }
+
   img{
     vertical-align: auto;
     margin: 0% 0%;
