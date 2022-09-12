@@ -26,7 +26,7 @@ html, body {
   }
   
   h2{
-    text-align: center;
+    text-align: center; /* to keep the text centered*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: .5% 25% .5%;
     background-color: rgb(163, 163, 163);
@@ -34,23 +34,23 @@ html, body {
   
   h3{
     color: white;
-    text-align:center;
+    text-align:center;/* to keep the text centered*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0% 25%;
   }
 
   ol{
     color: antiquewhite;
-    font-size:large;
+    font-size:large; /* the font looked small when I pulled it up on mobile and on a desktop so I made the font bigger*/
     float: center;
     padding: 0% 10%;
-    line-height: 150%;
+    line-height: 150%; /* to give spacing*/
   }
 
   ul{
     text-align: center;
     list-style: none;
-    line-height: 150%;
+    line-height: 150%;/* to give spacing*/
     padding: 0% 10% 0% 10%;
   }
 
