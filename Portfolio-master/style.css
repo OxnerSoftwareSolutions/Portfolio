@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black; /* Wanted to add style with the black background */
+  }
+  
+  header{
+    contain: content; 
+    padding: 0% 25%; /* Couldn't get the placement exactly where I wanted so I used the padding element*/
+    background: grey;
+  }
+
+  h1{ 
+    text-align: center; /* h1 style options */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  p{
+    color: antiquewhite; /* color white to stand out against the black background */
+    contain: content;
+    text-align: center; /* to keep the text centered*/
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
+    padding: 0% 15%;
+  }
+  
+  h2{
+    text-align: center; /* to keep the text centered*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: .5% 25% .5%;
+    background-color: rgb(163, 163, 163);
+  }
+  
+  h3{
+    color: white;
+    text-align:center;/* to keep the text centered*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0% 25%;
+  }
+
+  ol{
+    color: antiquewhite;
+    font-size:large; /* the font looked small when I pulled it up on mobile and on a desktop so I made the font bigger*/
+    float: center;
+    padding: 0% 10%;
+    line-height: 150%; /* to give spacing*/
+  }
+
+  ul{
+    text-align: center;
+    list-style: none;
+    line-height: 150%;/* to give spacing*/
+    padding: 0% 10% 0% 10%;
+  }
+
+  ul li{
+    display: inline-block;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    font-size: large;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  li a:hover {  /* My pseuedo class to pass per the instructions*/
+    color: white;
+  }
+
+  img{
+    vertical-align: auto;
+    margin: 0% 0%;
+  }
+
+  footer{
+    padding:15px;
+    background: grey;
+    text-align: center;
+  }
