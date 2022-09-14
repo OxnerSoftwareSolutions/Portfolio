@@ -44,10 +44,6 @@ h2{
   letter-spacing: 2px;
 }
 
-h2 img{
-  margin: 0% ;
-}
-
 h3{
   color: white;
   text-align:center;/* to keep the text centered*/
@@ -98,6 +94,7 @@ li a:hover {  /* My pseuedo class to pass per the instructions*/
 
 img{
   margin: 0% 0%;
+  padding-left: 2;
 }
 
 footer{
