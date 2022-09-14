@@ -7,31 +7,45 @@ html, body {
 }
 
 header{
-  contain: content; 
-  padding: 0% 25%; /* Couldn't get the placement exactly where I wanted so I used the padding element*/
+  contain: content;
+  padding: 0% .5%; /* Couldn't get the placement exactly where I wanted so I used the padding element*/
   background: grey;
+}
+
+header a{
+  color: rgb(10, 161, 10);
+}
+
+a{
+  color: white;
 }
 
 h1{ 
   text-align: center; /* h1 style options */
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  font-family: 'Permanent Marker', cursive;}
 
 p{
   color: antiquewhite; /* color white to stand out against the black background */
   contain: content;
   text-align: center; /* to keep the text centered*/
-  font-size:large;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:18px;
   line-height: 150%;
   padding: 0% 15%;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 5px;
 }
+
 
 h2{
   text-align: center; /* to keep the text centered*/
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: .5% 25% .5%;
+  padding: .5% 10% .5%;
   background-color: rgb(163, 163, 163);
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 2px;
+}
+
+h2 img{
+  margin: 0% ;
 }
 
 h3{
@@ -41,28 +55,41 @@ h3{
   padding: 0% 25%;
 }
 
+h3 a{
+  color: rgb(10, 161, 10);
+}
+
 ol{
   color: antiquewhite;
-  font-size:large; /* the font looked small when I pulled it up on mobile and on a desktop so I made the font bigger*/
+  font-size:15px; /* the font looked small when I pulled it up on mobile and on a desktop so I made the font bigger*/
+  font-family: 'Permanent Marker', cursive;
   float: center;
   padding: 0% 10%;
   line-height: 150%; /* to give spacing*/
+  letter-spacing: 2px;
 }
 
 ul{
   text-align: center;
+  color: auto;
   list-style: none;
-  line-height: 150%;/* to give spacing*/
-  padding: 0% 10% 0% 10%;
+  text-decoration: none;
+  line-height: 300%;/* to give spacing*/
 }
 
 ul li{
+  border: .4rem solid black;
+  border-radius: .5rem;
   display: inline-block;
-  padding-right: 2.5%;
-  padding-left: 2.5%;
-  font-size: large;
+  border-spacing: 20px;
+  font-size: 35px;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
   text-decoration: none;
   list-style: none;
+  background: rgba(0,0,0,0.4);
+  padding-right: 35px;
+  padding-left: 35px;
 }
 
 li a:hover {  /* My pseuedo class to pass per the instructions*/
@@ -78,83 +105,3 @@ footer{
   background: grey;
   text-align: center;
 }
-=======
-    height: 100%;
-    width: 100%;
-    background-color: black; /* Wanted to add style with the black background */
-  }
-  
-  header{
-    contain: content; 
-    padding: 0% 25%; /* Couldn't get the placement exactly where I wanted so I used the padding element*/
-    background: grey;
-  }
-
-  h1{ 
-    text-align: center; /* h1 style options */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  p{
-    color: antiquewhite; /* color white to stand out against the black background */
-    contain: content;
-    text-align: center; /* to keep the text centered*/
-    font-size:large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 150%;
-    padding: 0% 15%;
-  }
-  
-  h2{
-    text-align: center; /* to keep the text centered*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: .5% 25% .5%;
-    background-color: rgb(163, 163, 163);
-  }
-  
-  h3{
-    color: white;
-    text-align:center;/* to keep the text centered*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0% 25%;
-  }
-
-  ol{
-    color: antiquewhite;
-    font-size:large; /* the font looked small when I pulled it up on mobile and on a desktop so I made the font bigger*/
-    float: center;
-    padding: 0% 10%;
-    line-height: 150%; /* to give spacing*/
-  }
-
-  ul{
-    text-align: center;
-    list-style: none;
-    line-height: 150%;/* to give spacing*/
-    padding: 0% 10% 0% 10%;
-  }
-
-  ul li{
-    display: inline-block;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-    font-size: large;
-    text-decoration: none;
-    list-style: none;
-  }
-
-  li a:hover {  /* My pseuedo class to pass per the instructions*/
-    color: white;
-  }
-
-  img{
-    vertical-align: auto;
-    margin: 0% 0%;
-  }
-
-  footer{
-    padding:15px;
-    background: grey;
-    text-align: center;
-  }
->>>>>>> bd2cf9c48a2524b018624682de35e6845e8d18f1
